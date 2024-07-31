@@ -5,8 +5,9 @@ print("Hello world!")
 booleanVal = True # False | true, false가 아니라니
 
 
-# 2.4
-def sayHello():
-  print('Hello!')
+# 2.4 2.6 2.7
+def sayHello(name):
+  print('Hello!', name)
 
-sayHello()
+sayHello("Minung")
+# sayHello("Minung", 123) # error

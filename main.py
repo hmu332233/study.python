@@ -48,3 +48,23 @@ else:
 
 print(True and False) # 키워드로 접근이라니 특이하네
 print(True or False)
+
+# 3.4 3.5
+
+# from random import randint
+import random
+
+# botChoice = randint(1, 100)
+botChoice = random.randint(1, 100)
+print(botChoice)
+
+while True:
+  userChoice = int(input("Choose number."))
+
+  if userChoice == botChoice:
+    print("You win!")
+    break
+  elif userChoice > botChoice:
+    print("Lower!")
+  elif userChoice < botChoice:
+    print("Higher!")

@@ -43,3 +43,8 @@ elif winner < 10:
   print("winner < 10")
 else:
   print("10!")
+
+# 3.3 and or
+
+print(True and False) # 키워드로 접근이라니 특이하네
+print(True or False)

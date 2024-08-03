@@ -26,3 +26,20 @@ print(plus(1, 2))
 # 2.11
 name = "Minung"
 print(f"Hello {name}") # f는 format의 의미
+
+# 3.0
+condition = True
+if condition:
+  print("true!")
+else:
+  print("False!")
+
+
+# 3.1 elif
+winner = 10
+if winner > 10:
+  print("winner > 10")
+elif winner < 10:
+  print("winner < 10")
+else:
+  print("10!")
